@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      @media screen and (min-width: 917px) {
+        body {
+          background-color: black;
+        }
+        .body {
+          margin: 0 700px 0 200px;
+          background-color: aliceblue;
+          border-radius: 4px;
+        }
+      }
+      .coinreco {
+        color: rgb(34, 155, 44);
+        font-size: 30px;
+        text-decoration: none;
+      }
+      form label {
+        color: rgb(49, 49, 85);
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        margin-left: 25px;
+      }
+      form .inputt {
+        opacity: 0.9;
+        border-radius: 5px;
+        border: 1px solid rgb(74, 75, 78);
+        margin-left: 25px;
+        margin-top: 5px;
+        height: 2.36rem;
+        width: 16rem;
+      }
+      .create-btn {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        border-radius: 1cqb;
+        margin-top: 30px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 1rem 2rem;
+        cursor: pointer;
+      }
+      .login div {
+        font-size: 20px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <a href="/" class="coinreco"> CoinReco </a><br />
+      <br />
+
+      <form action="">
+        <label for="">Email</label><br />
+
+        <input
+          class="inputt"
+          type="text"
+          placeholder=" Enter email"
+          required
+          style="padding-left: 10px"
+        />
+
+        <br /><br />
+
+        <label for="">Password</label><br />
+
+        <input
+          class="inputt"
+          type="text"
+          placeholder=" Enter password"
+          required
+          style="padding-left: 10px"
+        />
+        <br />
+
+        <button class="create-btn">Log in</button>
+      </form>
+      <br /><br />
+
+      <div class="login">
+        <div>Don't have an account? <a href="/sign-up.html">Sign Up </a></div>
+      </div>
+    </div>
+  </body>
+</html>

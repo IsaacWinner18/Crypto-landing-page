@@ -1,0 +1,77 @@
+.all-body {
+  text-align: left;
+}
+.coinreco {
+  margin: 30px;
+  padding-top: 20px;
+  color: rgb(34, 155, 44);
+  font-size: 30px;
+  text-decoration: none;
+}
+form label {
+  color: rgb(49, 49, 85);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  margin-left: 25px;
+}
+form .inputt {
+  opacity: 0.9;
+  border-radius: 5px;
+  border: 1px solid rgb(74, 75, 78);
+  margin-left: 25px;
+  margin-top: 5px;
+  height: 2.36rem;
+  width: 16rem;
+}
+ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.6;
+}
+#checkboxx {
+  width: 30px;
+  height: 20px;
+}
+.terms {
+  opacity: 0.8;
+  margin-left: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.terms span {
+  color: blue;
+}
+.create-btn {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  border-radius: 1cqb;
+  margin-top: 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+.login div {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.fil-alert {
+  display: none;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+@media screen and (min-width: 917px) {
+  body {
+    background-color: black;
+  }
+  .all-body {
+    margin: 0 600px 0 300px;
+    background-color: aliceblue;
+  }
+}
